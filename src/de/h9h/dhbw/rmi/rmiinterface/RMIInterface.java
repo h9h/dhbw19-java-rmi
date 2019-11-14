@@ -1,10 +1,8 @@
-package de.h9h.dhbw.rmi.interface;
+package de.h9h.dhbw.rmi.rmiinterface;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface RMIInterface extends Remote {
-
-    public int multiply(int a, int b) throws RemoteException;
-
+    Integer multiply(Integer a, Integer b) throws RemoteException;
 }
